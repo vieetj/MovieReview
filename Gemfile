@@ -15,6 +15,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 # GEMS FOR PROJECT #
 # Back-end
 gem 'devise', '~> 4.5'
+gem 'paperclip', '~> 6.1'
 # Front-end
 gem 'bootstrap-sass', '~> 3.4'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
