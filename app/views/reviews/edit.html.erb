@@ -1,5 +1,4 @@
-  <h1>Editing Review</h1>
+<h2 class="text-center">Edit Review</h2>
 
-  <%= render 'form', review: @review %>
-
-  <%= link_to 'Back', movie_path(@movie) %>
+<%= render 'form', review: @review %>
+<%= link_to 'Back', movie_path(@review.movie), class:"btn btn-info link-as-button7" %>

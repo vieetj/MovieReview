@@ -5,8 +5,13 @@
 /* IMPORT FONT-AWESOME */
 @import "font-awesome";
 
+* {
+ box-sizing: border-box;
+}
+
 body {
-  background: #AA4847;
+  position: relative;
+  background: #ee5253;
 }
 
 .review_title {
@@ -18,4 +23,61 @@ body {
   .star-rating {
     padding-bottom: 8px;
   }
+}
+.footer p {
+  margin-top: 15px;
+}
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: -5;
+  left: 0;
+  background-color: #e7e7e7;
+  text-align: center;
+  padding: 1rem;
+}
+
+.pull-right a {
+  text-decoration: none;
+  color: black;
+}
+
+.link-as-button, .link-as-button1, .link-as-button2, .link-as-button4 {
+  margin-right: 10px;
+}
+
+.link-as-button1, .link-as-button2, .link-as-button4, .link-as-button7 {
+  margin-top: 10px;
+}
+
+.link-as-button {
+  margin-bottom: 10px;
+}
+
+.link-as-button1 {
+  margin-bottom: 205px;
+}
+
+.link-as-button2 {
+  margin-bottom: 360px;
+}
+
+.link-as-button3 {
+  margin-bottom: 320px;
+}
+
+.link-as-button4 {
+  margin-bottom: 222px;
+}
+
+.link-as-button5 {
+  margin-bottom: 423px;
+}
+
+.link-as-button6 {
+  margin-bottom: 507px;
+}
+
+.link-as-button7 {
+  margin-bottom: 417px;
 }
