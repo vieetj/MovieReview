@@ -29,3 +29,6 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# Ignore upload image when push code to github
+/public/system/movies/images/
