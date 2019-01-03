@@ -4,6 +4,9 @@ Rails.application.routes.draw do
               path: '',
               path_names: { sign_in: 'login', sign_up: 'registration', sign_out: 'logout', edit: 'profile' }
   resources :movies do
+    collection do
+      get 'search'
+    end
     resources :reviews, except: [:show, :index]
   end
   root 'movies#index'

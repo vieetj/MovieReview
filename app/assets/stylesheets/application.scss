@@ -2,8 +2,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-/* IMPORT FONT-AWESOME */
-@import "font-awesome";
+@import "toastr";
 
 * {
  box-sizing: border-box;
@@ -11,7 +10,7 @@
 
 body {
   position: relative;
-  background: #ee5253;
+  background: #A3CB38;
 }
 
 .review_title {

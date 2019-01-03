@@ -1,0 +1,9 @@
+<% if resource.errors.present? %>
+  <div id='flash'>
+   <script>
+    <% resource.errors.full_messages.each do |msg| %>
+    toastr.error('<%= msg %>')
+    <% end %>
+   </script>
+  </div>
+<% end %>
