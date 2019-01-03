@@ -13,7 +13,12 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 # GEMS FOR PROJECT #
+# Back-end
 gem 'devise', '~> 4.5'
+# Front-end
+gem 'bootstrap-sass', '~> 3.4'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
